@@ -1,0 +1,17 @@
+YOLO AUTONOMOUS VEHICLE PROJECT
+
+Model: yolo11n.pt
+
+Hardware: Tesla T4
+
+Number of detections: 3
+
+Average inference time: 0.0202 seconds
+
+Approximate FPS: 49.53
+
+Minimum inference time: 0.0184 seconds
+
+Maximum inference time: 0.0249 seconds
+
+Standard deviation: 0.0016 seconds

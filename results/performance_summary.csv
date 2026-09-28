@@ -1,0 +1,11 @@
+Metric,Value
+YOLO Model,yolo11n.pt
+Hardware,Tesla T4
+Image Resolution,640 x 640
+Confidence Threshold,0.25
+Tests,20
+Average Inference Time,0.0202
+Minimum Inference Time,0.0184
+Maximum Inference Time,0.0249
+Standard Deviation,0.0016
+Average FPS,49.53

@@ -1,0 +1,35 @@
+YOLO AUTONOMOUS VEHICLE OBJECT DETECTION
+=========================================
+
+Model: YOLO11n
+Platform: Google Colab
+GPU: NVIDIA Tesla T4
+Framework: Ultralytics 8.4.164
+PyTorch: 2.11.0+cu128
+Test Scene: Urban bus / vehicle scene
+
+Detected objects:
+- Bus
+- Person
+- Person
+- Person
+- Person
+
+Latest single inference:
+Inference time: 0.0626 seconds
+Approximate FPS: 15.97
+
+20-run benchmark:
+Average inference time: 0.0202 seconds
+Minimum inference time: 0.0184 seconds
+Maximum inference time: 0.0249 seconds
+Standard deviation: 0.0016 seconds
+Approximate average FPS: 49.53
+
+Important limitation:
+The measured FPS depends on the Google Colab runtime and NVIDIA
+Tesla T4 GPU. It should not be interpreted as guaranteed
+production autonomous-vehicle performance.
+
+A complete AV evaluation would require a larger labeled dataset
+and metrics such as precision, recall and mAP.

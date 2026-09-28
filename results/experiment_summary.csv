@@ -1,0 +1,17 @@
+Metric,Value
+Model,YOLO
+Model Variant,YOLO11n
+Platform,Google Colab
+GPU,NVIDIA Tesla T4
+Framework,Ultralytics
+Ultralytics Version,8.4.164
+PyTorch Version,2.11.0+cu128
+Test Scene,Urban bus / vehicle scene
+Single Inference Time (seconds),0.0626
+Single Inference FPS,15.97
+Benchmark Runs,20
+Average Inference Time (seconds),0.0202
+Minimum Inference Time (seconds),0.0184
+Maximum Inference Time (seconds),0.0249
+Standard Deviation (seconds),0.0016
+Average Benchmark FPS,49.53
